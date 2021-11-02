@@ -118,10 +118,10 @@ hr {
    overflow: visible;
 }
 .w3-content {
+    float: left;
     line-height: 1.5;
-    width: 1100px;
     margin: 0 auto;
-    max-width: 100%;
+    width: 50%;
 }
 .w3-content h1 {
     font-size: 36px;
@@ -134,6 +134,9 @@ hr {
 .w3-content p {
     font-size: 15px;
     color: #757575;
+}
+.w3-contact {
+    margin: 0 auto;
 }
 .w3-contact p{
     font-size: 15.5px;
@@ -175,12 +178,13 @@ footer {
     background-color: #eee;
     font-size: 13px;
 }
-@media screen and (max-width:400px) {
-    .w3-right ,.w3-img2 {
+@media screen and (max-width:700px) {
+    .w3-right,.w3-img2 {
         display: none;
     }
     .w3-col1 {
         float: none;
+        width: 100%;
     }
     .w3-row {
         padding: 0;
