@@ -137,6 +137,7 @@ hr {
 }
 .w3-contact {
     margin: 0 auto;
+    padding: 12px 24px;
 }
 .w3-contact p{
     font-size: 15.5px;
@@ -186,6 +187,15 @@ footer {
         float: none;
         width: 100%;
     }
+    .w3-col1 h1,.w3-contact h1 {
+        font-size: 6vw;
+    }
+    .w3-col1 h4,.w3-contact h3 {
+        font-size: 3vw;
+    }
+    .w3-col1 p,.w3-contact p {
+        font-size: 2.5vw;
+    }
     .w3-row {
         padding: 0;
     }
@@ -193,7 +203,16 @@ footer {
         font-size: 4vw;
     }
     .w3-contact {
-        margin: 1rem;
+        padding: 12px 24px;
+    }
+    button {
+        font-size: 2vw;
+    }
+    input::placeholder {
+        font-size: 2vw;
+    }  
+    footer {
+        font-size: 2vw;
     }
 }
 
