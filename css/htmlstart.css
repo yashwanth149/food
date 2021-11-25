@@ -140,7 +140,7 @@ hr {
     padding: 12px 24px;
 }
 .w3-contact p{
-    font-size: 15.5px;
+    font-size: 15px;
     word-spacing: 1px;
     letter-spacing: 1px;
     color: gray;
@@ -149,6 +149,7 @@ hr {
     font-size: 36px;
 }
 .w3-contact h3 {
+    font-size: 15px;
     color: #607d8b;
     margin: 30px 0;
     font-weight: bolder;
