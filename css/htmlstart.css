@@ -4,6 +4,7 @@
 body {
     padding: 0;
     margin: 0;
+    
 }
 h1,h2,h3,h4,h5 {
     letter-spacing: 5px;
@@ -93,7 +94,7 @@ h1,h2,h3,h4,h5 {
     font-size: 18px;
 }
 .content p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 1.5px;
 }
@@ -213,13 +214,22 @@ footer {
         
     }
     .w3-col1 h1 {
-        font-size: 16px;
+        font-size: 22px;
     }
     .w3-col1 h4 {
         font-size: 3vw;
     }
-    .w3-col1 p,.w3-contact p,.w3-contact h1,.w3-contact h3 {
-        font-size: 12px;
+    .w3-col1 p,.w3-contact p {
+        font-size: 10px;
+        font-family: 'Exo 2', sans-serif;
+}
+    .w3-contact h1{
+        font-size: 14px;
+    }
+    .w3-contact h3 {
+        font-size: 14px;
+        font-family: 'Exo 2', sans-serif;
+
     }
     .w3-row {
         padding-top: 0;
@@ -235,7 +245,7 @@ footer {
         padding: 12px 24px;
     }
     .w3-contact h1 {
-        font-size: 22px;
+        font-size: 17px;
     }
     button,input::placeholder,footer {
         font-size: 2vw;
