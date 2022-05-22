@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 h1,h2,h3,h4,h5 {
     letter-spacing: 5px;
@@ -51,7 +51,6 @@ h1,h2,h3,h4,h5 {
 }
 .w3-img1 {
     width: 100%;
-    margin-bottom: 2rem;
 }
 .w3-position {
     position: relative;
@@ -96,6 +95,7 @@ h1,h2,h3,h4,h5 {
 .content p {
     font-size: 18px;
     line-height: 1.5;
+    letter-spacing: 1.5px;
 }
 .w3-col1 {
     float: left;
@@ -168,11 +168,26 @@ form input {
     margin-bottom: 18px;
     line-height: 1.5;
 }
+
+input::placeholder {
+    color: #eee;
+}
+
 button {
     border: none;
-    padding: 15px;
+    padding: 12px;
     margin-top: 28px;
+    color: #607d8b;
+    border-radius: 6px;
+    transition: box-shadow 2s;
+    transition: transform .7s;
 }
+
+button:hover {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translate(-2px,-3px);
+  }
+
 footer {
     margin-top: 2rem;
     text-align: center;
@@ -182,7 +197,12 @@ footer {
 }
 @media screen and (max-width:700px) {
     .w3-left {
-        font-size: 2.3vw;
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: -1rem;
+    }
+    .w3-clear {
+        padding: 14px;
     }
     .w3-right,.w3-img2 {
         display: none;
@@ -190,34 +210,45 @@ footer {
     .w3-col1 {
         float: none;
         width: 100%;
+        
     }
     .w3-col1 h1 {
-        font-size: 6vw;
+        font-size: 16px;
     }
     .w3-col1 h4 {
         font-size: 3vw;
     }
     .w3-col1 p,.w3-contact p,.w3-contact h1,.w3-contact h3 {
-        font-size: 2.5vw;
+        font-size: 12px;
     }
     .w3-row {
         padding-top: 0;
         padding-bottom: 0;
     }
+    .w3-large {
+        bottom: 8px;
+    }
     .w3-xxlarge {
-        font-size: 4vw;
+        font-size: 20px;
     }
     .w3-contact {
         padding: 12px 24px;
     }
+    .w3-contact h1 {
+        font-size: 22px;
+    }
     button,input::placeholder,footer {
         font-size: 2vw;
     } 
+
     .w3-img1 {
-        margin-top: 3rem;
+        margin-top: 4rem;
+        width: 100%;
+    }
+    footer {
+        padding: 2rem;
     }
 } 
-
 
 
 
