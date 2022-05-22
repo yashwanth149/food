@@ -144,7 +144,6 @@ hr {
     font-size: 15px;
     word-spacing: 1px;
     letter-spacing: 1px;
-    color: gray;
 }
 .w3-contact h1 {
     font-size: 36px;
@@ -219,7 +218,7 @@ footer {
         font-size: 3vw;
     }
     .w3-col1 p,.w3-contact p {
-        font-size: 10px;
+        font-size: 12px;
         font-family: 'Exo 2', sans-serif;
 }
     .w3-contact h1{
